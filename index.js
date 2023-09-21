@@ -1,8 +1,7 @@
 const { exec } = require("child_process");
 
 exec("git reset --hard", (error) => {
-  console.log(o);
-  if (!e) {
+  if (!error) {
     console.log("success");
   }
 });
